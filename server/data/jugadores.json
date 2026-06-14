@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "j001",
+    "nombre": "Lionel Messi",
+    "posicion": ["MCO", "EI"],
+    "media": 91,
+    "nacionalidad": "Argentina",
+    "club_real": "Inter Miami",
+    "precio": 15000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 93,
+      "pase": 91,
+      "regate": 95,
+      "defensa": 38,
+      "fisico": 65
+    }
+  },
+  {
+    "id": "j002",
+    "nombre": "Rodrigo De Paul",
+    "posicion": ["MC", "MCD"],
+    "media": 82,
+    "nacionalidad": "Argentina",
+    "club_real": "Inter Miami",
+    "precio": 12000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 75,
+      "pase": 83,
+      "regate": 80,
+      "defensa": 72,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j003",
+    "nombre": "Julián Álvarez",
+    "posicion": ["DC"],
+    "media": 89,
+    "nacionalidad": "Argentina",
+    "club_real": "Atlético de Madrid",
+    "precio": 100000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 89,
+      "pase": 85,
+      "regate": 83,
+      "defensa": 45,
+      "fisico": 88
+    }
+  },
+  {
+    "id": "j004",
+    "nombre": "Emiliano Martínez",
+    "posicion": ["PO"],
+    "media": 87,
+    "nacionalidad": "Argentina",
+    "club_real": "Aston Villa",
+    "precio": 12000000,
+    "stats": {
+      "ritmo": 55,
+      "tiro": 30,
+      "pase": 60,
+      "regate": 25,
+      "defensa": 88,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j005",
+    "nombre": "Alexis Mac Allister",
+    "posicion": ["MC", "MCD"],
+    "media": 88,
+    "nacionalidad": "Argentina",
+    "club_real": "Liverpool",
+    "precio": 2000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 7485,
+      "pase": 89,
+      "regate": 84,
+      "defensa": 70,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j006",
+    "nombre": "Kylian Mbappé",
+    "posicion": ["DC", "EI"],
+    "media": 92,
+    "nacionalidad": "Francia",
+    "club_real": "Real Madrid",
+    "precio": 180000000,
+    "stats": {
+      "ritmo": 97,
+      "tiro": 90,
+      "pase": 80,
+      "regate": 92,
+      "defensa": 36,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j007",
+    "nombre": "Erling Haaland",
+    "posicion": ["DC"],
+    "media": 92,
+    "nacionalidad": "Noruega",
+    "club_real": "Manchester City",
+    "precio": 200000000,
+    "stats": {
+      "ritmo": 89,
+      "tiro": 95,
+      "pase": 85,
+      "regate": 80,
+      "defensa": 45,
+      "fisico": 94
+    }
+  },
+  {
+    "id": "j008",
+    "nombre": "Pedri",
+    "posicion": ["MC", "MCO"],
+    "media": 87,
+    "nacionalidad": "España",
+    "club_real": "Barcelona",
+    "precio": 150000000,
+    "stats": {
+      "ritmo": 84,
+      "tiro": 80,
+      "pase": 90,
+      "regate": 87,
+      "defensa": 84,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j009",
+    "nombre": "Vinicius Jr",
+    "posicion": ["EI"],
+    "media": 90,
+    "nacionalidad": "Brasil",
+    "club_real": "Real Madrid",
+    "precio": 140000000,
+    "stats": {
+      "ritmo": 95,
+      "tiro": 85,
+      "pase": 78,
+      "regate": 93,
+      "defensa": 30,
+      "fisico": 73
+    }
+  },
+  {
+    "id": "j010",
+    "nombre": "Lautaro Martínez",
+    "posicion": ["DC"],
+    "media": 87,
+    "nacionalidad": "Argentina",
+    "club_real": "Inter Milan",
+    "precio": 85000000,
+    "stats": {
+      "ritmo": 82,
+      "tiro": 87,
+      "pase": 72,
+      "regate": 80,
+      "defensa": 42,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j011",
+    "nombre": "Bukayo Saka",
+    "posicion": ["ED", "DC"],
+    "media": 86,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Arsenal FC",
+    "precio": 110000000,
+    "stats": {
+      "ritmo": 88,
+      "tiro": 82,
+      "pase": 83,
+      "regate": 87,
+      "defensa": 55,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j012",
+    "nombre": "Federico Valverde",
+    "posicion": ["MC", "MCD"],
+    "media": 87,
+    "nacionalidad": "Uruguay",
+    "club_real": "Real Madrid",
+    "precio": 90000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 78,
+      "pase": 83,
+      "regate": 80,
+      "defensa": 78,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j013",
+    "nombre": "Virgil van Dijk",
+    "posicion": ["DFC"],
+    "media": 87,
+    "nacionalidad": "Países Bajos",
+    "club_real": "Liverpool",
+    "precio": 15000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 60,
+      "pase": 72,
+      "regate": 55,
+      "defensa": 91,
+      "fisico": 90
+    }
+  },
+  {
+    "id": "j014",
+    "nombre": "Thibaut Courtois",
+    "posicion": ["PO"],
+    "media": 90,
+    "nacionalidad": "Bélgica",
+    "club_real": "Real Madrid",
+    "precio": 15000000,
+    "stats": {
+      "ritmo": 52,
+      "tiro": 28,
+      "pase": 65,
+      "regate": 22,
+      "defensa": 91,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j015",
+    "nombre": "Bruno Fernandes",
+    "posicion": ["MCO", "MC"],
+    "media": 85,
+    "nacionalidad": "Portugal",
+    "club_real": "Manchester United",
+    "precio": 35000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 82,
+      "pase": 87,
+      "regate": 80,
+      "defensa": 58,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j016",
+    "nombre": "William Saliba",
+    "posicion": ["DFC"],
+    "media": 85,
+    "nacionalidad": "Francia",
+    "club_real": "Arsenal FC",
+    "precio": 100000000,
+    "stats": {
+      "ritmo": 87,
+      "tiro": 45,
+      "pase": 82,
+      "regate": 55,
+      "defensa": 87,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j017",
+    "nombre": "Nicolás Otamendi",
+    "posicion": ["DFC"],
+    "media": 79,
+    "nacionalidad": "Argentina",
+    "club_real": "River Plate",
+    "precio": 1000000,
+    "stats": {
+      "ritmo": 68,
+      "tiro": 42,
+      "pase": 62,
+      "regate": 45,
+      "defensa": 83,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j018",
+    "nombre": "Marcus Thuram",
+    "posicion": ["DC"],
+    "media": 84,
+    "nacionalidad": "Francia",
+    "club_real": "Inter Milan",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 86,
+      "tiro": 82,
+      "pase": 70,
+      "regate": 78,
+      "defensa": 40,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j019",
+    "nombre": "Giorgi Mamardashvili",
+    "posicion": ["PO"],
+    "media": 83,
+    "nacionalidad": "Georgia",
+    "club_real": "Liverpool",
+    "precio": 28000000,
+    "stats": {
+      "ritmo": 50,
+      "tiro": 25,
+      "pase": 62,
+      "regate": 20,
+      "defensa": 85,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j020",
+    "nombre": "Enzo Fernández",
+    "posicion": ["MC", "MCD"],
+    "media": 89,
+    "nacionalidad": "Argentina",
+    "club_real": "Chelsea",
+    "precio": 90000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 85,
+      "pase": 90,
+      "regate": 78,
+      "defensa": 86,
+      "fisico": 84
+    }
+  },
+  {
+    "id": "j021",
+    "nombre": "Gavi",
+    "posicion": ["MC"],
+    "media": 84,
+    "nacionalidad": "España",
+    "club_real": "Barcelona",
+    "precio": 30000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 70,
+      "pase": 86,
+      "regate": 85,
+      "defensa": 68,
+      "fisico": 65
+    }
+  },
+  {
+    "id": "j022",
+    "nombre": "Achraf Hakimi",
+    "posicion": ["LD"],
+    "media": 85,
+    "nacionalidad": "Marruecos",
+    "club_real": "PSG",
+    "precio": 80000000,
+    "stats": {
+      "ritmo": 91,
+      "tiro": 68,
+      "pase": 78,
+      "regate": 80,
+      "defensa": 78,
+      "fisico": 75
+    }
+  },
+  {
+    "id": "j023",
+    "nombre": "Rúben Dias",
+    "posicion": ["DFC"],
+    "media": 87,
+    "nacionalidad": "Portugal",
+    "club_real": "Manchester City",
+    "precio": 55000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 45,
+      "pase": 70,
+      "regate": 50,
+      "defensa": 90,
+      "fisico": 88
+    }
+  },
+  {
+    "id": "j024",
+    "nombre": "Phil Foden",
+    "posicion": ["MCO", "EI"],
+    "media": 86,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Manchester City",
+    "precio": 60000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 80,
+      "pase": 83,
+      "regate": 88,
+      "defensa": 55,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j025",
+    "nombre": "Darwin Núñez",
+    "posicion": ["DC"],
+    "media": 81,
+    "nacionalidad": "Uruguay",
+    "club_real": "Al-Hilal",
+    "precio": 20000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 80,
+      "pase": 65,
+      "regate": 75,
+      "defensa": 38,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j026",
+    "nombre": "Alejandro Garnacho",
+    "posicion": ["EI", "ED"],
+    "media": 81,
+    "nacionalidad": "Argentina",
+    "club_real": "Chelsea",
+    "precio": 28000000,
+    "stats": {
+      "ritmo": 87,
+      "tiro": 78,
+      "pase": 72,
+      "regate": 83,
+      "defensa": 35,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j027",
+    "nombre": "Yann Sommer",
+    "posicion": ["PO"],
+    "media": 84,
+    "nacionalidad": "Suiza",
+    "club_real": "Inter Milan",
+    "precio": 2000000,
+    "stats": {
+      "ritmo": 48,
+      "tiro": 25,
+      "pase": 63,
+      "regate": 20,
+      "defensa": 86,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j028",
+    "nombre": "Tijjani Reijnders",
+    "posicion": ["MC"],
+    "media": 85,
+    "nacionalidad": "Países Bajos",
+    "club_real": "Manchester City",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 75,
+      "pase": 88,
+      "regate": 78,
+      "defensa": 80,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j029",
+    "nombre": "Cristian Romero",
+    "posicion": ["DFC"],
+    "media": 85,
+    "nacionalidad": "Argentina",
+    "club_real": "Tottenham",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 48,
+      "pase": 65,
+      "regate": 52,
+      "defensa": 88,
+      "fisico": 87
+    }
+  },
+  {
+    "id": "j030",
+    "nombre": "Florian Wirtz",
+    "posicion": ["MCO", "EI"],
+    "media": 88,
+    "nacionalidad": "Alemania",
+    "club_real": "Liverpool",
+    "precio": 100000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 82,
+      "pase": 87,
+      "regate": 90,
+      "defensa": 52,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j031",
+    "nombre": "Leroy Sané",
+    "posicion": ["EI", "ED"],
+    "media": 83,
+    "nacionalidad": "Alemania",
+    "club_real": "Galatasaray",
+    "precio": 20000000,
+    "stats": {
+      "ritmo": 92,
+      "tiro": 80,
+      "pase": 78,
+      "regate": 85,
+      "defensa": 35,
+      "fisico": 70
+    }
+  },
+  {
+    "id": "j032",
+    "nombre": "Marquinhos",
+    "posicion": ["DFC"],
+    "media": 85,
+    "nacionalidad": "Brasil",
+    "club_real": "PSG",
+    "precio": 28000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 48,
+      "pase": 73,
+      "regate": 55,
+      "defensa": 88,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j033",
+    "nombre": "Mike Maignan",
+    "posicion": ["PO"],
+    "media": 87,
+    "nacionalidad": "Francia",
+    "club_real": "AC Milan",
+    "precio": 20000000,
+    "stats": {
+      "ritmo": 55,
+      "tiro": 28,
+      "pase": 68,
+      "regate": 22,
+      "defensa": 88,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j034",
+    "nombre": "Khvicha Kvaratskhelia",
+    "posicion": ["EI", "MCO"],
+    "media": 90,
+    "nacionalidad": "Georgia",
+    "club_real": "PSG",
+    "precio": 140000000,
+    "stats": {
+      "ritmo": 91,
+      "tiro": 88,
+      "pase": 83,
+      "regate": 90,
+      "defensa": 38,
+      "fisico": 86
+    }
+  },
+  {
+    "id": "j035",
+    "nombre": "Antonio Rüdiger",
+    "posicion": ["DFC"],
+    "media": 84,
+    "nacionalidad": "Alemania",
+    "club_real": "Real Madrid",
+    "precio": 6000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 50,
+      "pase": 65,
+      "regate": 48,
+      "defensa": 87,
+      "fisico": 90
+    }
+  },
+  {
+    "id": "j036",
+    "nombre": "Rodri",
+    "posicion": ["MCD"],
+    "media": 91,
+    "nacionalidad": "España",
+    "club_real": "Manchester City",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 72,
+      "tiro": 85,
+      "pase": 92,
+      "regate": 78,
+      "defensa": 88,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j037",
+    "nombre": "Gabriel Magalhães",
+    "posicion": ["DFC"],
+    "media": 85,
+    "nacionalidad": "Brasil",
+    "club_real": "Arsenal FC",
+    "precio": 75000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 55,
+      "pase": 68,
+      "regate": 50,
+      "defensa": 88,
+      "fisico": 87
+    }
+  },
+  {
+    "id": "j038",
+    "nombre": "Rafael Leão",
+    "posicion": ["EI"],
+    "media": 85,
+    "nacionalidad": "Portugal",
+    "club_real": "AC Milan",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 92,
+      "tiro": 82,
+      "pase": 72,
+      "regate": 87,
+      "defensa": 32,
+      "fisico": 75
+    }
+  },
+  {
+    "id": "j039",
+    "nombre": "Jude Bellingham",
+    "posicion": ["MCO", "MC"],
+    "media": 91,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Real Madrid",
+    "precio": 130000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 85,
+      "pase": 87,
+      "regate": 85,
+      "defensa": 75,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j040",
+    "nombre": "Alisson Becker",
+    "posicion": ["PO"],
+    "media": 90,
+    "nacionalidad": "Brasil",
+    "club_real": "Liverpool",
+    "precio": 15000000,
+    "stats": {
+      "ritmo": 52,
+      "tiro": 28,
+      "pase": 70,
+      "regate": 22,
+      "defensa": 90,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j041",
+    "nombre": "Diogo Dalot",
+    "posicion": ["LD", "LI"],
+    "media": 80,
+    "nacionalidad": "Portugal",
+    "club_real": "Manchester United",
+    "precio": 12000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 60,
+      "pase": 73,
+      "regate": 72,
+      "defensa": 78,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j042",
+    "nombre": "Yerlan Adesope",
+    "posicion": ["MC"],
+    "media": 72,
+    "nacionalidad": "Nigeria",
+    "club_real": "Nantes",
+    "precio": 1000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 65,
+      "pase": 72,
+      "regate": 70,
+      "defensa": 60,
+      "fisico": 73
+    }
+  },
+  {
+    "id": "j043",
+    "nombre": "Luca Koleosho",
+    "posicion": ["EI", "ED"],
+    "media": 71,
+    "nacionalidad": "Italia",
+    "club_real": "Burnley",
+    "precio": 3500000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 68,
+      "pase": 62,
+      "regate": 75,
+      "defensa": 28,
+      "fisico": 65
+    }
+  },
+  {
+    "id": "j044",
+    "nombre": "Brandon Thomas-Asante",
+    "posicion": ["DC"],
+    "media": 70,
+    "nacionalidad": "Ghana",
+    "club_real": "West Brom",
+    "precio": 2000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 70,
+      "pase": 58,
+      "regate": 68,
+      "defensa": 30,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j045",
+    "nombre": "Nikola Milenkovic",
+    "posicion": ["DFC"],
+    "media": 78,
+    "nacionalidad": "Serbia",
+    "club_real": "Nottingham Forest",
+    "precio": 7000000,
+    "stats": {
+      "ritmo": 70,
+      "tiro": 45,
+      "pase": 62,
+      "regate": 42,
+      "defensa": 82,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j046",
+    "nombre": "Carlos Baleba",
+    "posicion": ["MCD", "MC"],
+    "media": 75,
+    "nacionalidad": "Camerún",
+    "club_real": "Brighton",
+    "precio": 5500000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 62,
+      "pase": 73,
+      "regate": 70,
+      "defensa": 72,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j047",
+    "nombre": "Bart Verbruggen",
+    "posicion": ["PO"],
+    "media": 76,
+    "nacionalidad": "Países Bajos",
+    "club_real": "Brighton",
+    "precio": 6000000,
+    "stats": {
+      "ritmo": 45,
+      "tiro": 22,
+      "pase": 60,
+      "regate": 18,
+      "defensa": 78,
+      "fisico": 75
+    }
+  },
+  {
+    "id": "j048",
+    "nombre": "Willian Pacho",
+    "posicion": ["DFC"],
+    "media": 85,
+    "nacionalidad": "Ecuador",
+    "club_real": "PSG",
+    "precio": 80000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 42,
+      "pase": 80,
+      "regate": 48,
+      "defensa": 88,
+      "fisico": 87
+    }
+  },
+  {
+    "id": "j049",
+    "nombre": "Facundo Buonanotte",
+    "posicion": ["MCO", "EI"],
+    "media": 74,
+    "nacionalidad": "Argentina",
+    "club_real": "Leeds United",
+    "precio": 5000000,
+    "stats": {
+      "ritmo": 77,
+      "tiro": 68,
+      "pase": 75,
+      "regate": 78,
+      "defensa": 52,
+      "fisico": 62
+    }
+  },
+  {
+    "id": "j050",
+    "nombre": "Dango Ouattara",
+    "posicion": ["ED", "EI"],
+    "media": 76,
+    "nacionalidad": "Burkina Faso",
+    "club_real": "Bournemouth",
+    "precio": 6000000,
+    "stats": {
+      "ritmo": 88,
+      "tiro": 72,
+      "pase": 62,
+      "regate": 78,
+      "defensa": 28,
+      "fisico": 70
+    }
+  },
+  {
+    "id": "j051",
+    "nombre": "Lamine Yamal",
+    "posicion": [
+      "ED"
+    ],
+    "media": 91,
+    "nacionalidad": "España",
+    "club_real": "Barcelona",
+    "precio": 200000000,
+    "stats": {
+      "ritmo": 95,
+      "tiro": 85,
+      "pase": 85,
+      "regate": 93,
+      "defensa": 32,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j052",
+    "nombre": "Declan Rice",
+    "posicion": [
+      "MCD",
+      "MC"
+    ],
+    "media": 89,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Arsenal FC",
+    "precio": 120000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 78,
+      "pase": 85,
+      "regate": 75,
+      "defensa": 90,
+      "fisico": 87
+    }
+  },
+  {
+    "id": "j053",
+    "nombre": "Cole Palmer",
+    "posicion": [
+      "MCO",
+      "ED"
+    ],
+    "media": 88,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Chelsea",
+    "precio": 120000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 87,
+      "pase": 86,
+      "regate": 88,
+      "defensa": 45,
+      "fisico": 70
+    }
+  },
+  {
+    "id": "j054",
+    "nombre": "Vitinha",
+    "posicion": [
+      "MC",
+      "MCD"
+    ],
+    "media": 87,
+    "nacionalidad": "Portugal",
+    "club_real": "PSG",
+    "precio": 110000000,
+    "stats": {
+      "ritmo": 80,
+      "tiro": 78,
+      "pase": 90,
+      "regate": 83,
+      "defensa": 72,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j055",
+    "nombre": "João Neves",
+    "posicion": [
+      "MCD",
+      "MC"
+    ],
+    "media": 86,
+    "nacionalidad": "Portugal",
+    "club_real": "PSG",
+    "precio": 110000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 72,
+      "pase": 86,
+      "regate": 80,
+      "defensa": 85,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j056",
+    "nombre": "Ousmane Dembélé",
+    "posicion": [
+      "ED",
+      "EI"
+    ],
+    "media": 88,
+    "nacionalidad": "Francia",
+    "club_real": "PSG",
+    "precio": 100000000,
+    "stats": {
+      "ritmo": 94,
+      "tiro": 83,
+      "pase": 78,
+      "regate": 91,
+      "defensa": 35,
+      "fisico": 70
+    }
+  },
+  {
+    "id": "j057",
+    "nombre": "Viktor Gyökeres",
+    "posicion": [
+      "DC"
+    ],
+    "media": 88,
+    "nacionalidad": "Suecia",
+    "club_real": "Arsenal FC",
+    "precio": 90000000,
+    "stats": {
+      "ritmo": 87,
+      "tiro": 92,
+      "pase": 72,
+      "regate": 78,
+      "defensa": 42,
+      "fisico": 90
+    }
+  },
+  {
+    "id": "j058",
+    "nombre": "Nico Williams",
+    "posicion": [
+      "EI",
+      "ED"
+    ],
+    "media": 86,
+    "nacionalidad": "España",
+    "club_real": "Athletic Club",
+    "precio": 100000000,
+    "stats": {
+      "ritmo": 93,
+      "tiro": 80,
+      "pase": 76,
+      "regate": 88,
+      "defensa": 35,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j059",
+    "nombre": "Raphinha",
+    "posicion": [
+      "ED",
+      "EI"
+    ],
+    "media": 87,
+    "nacionalidad": "Brasil",
+    "club_real": "Barcelona",
+    "precio": 80000000,
+    "stats": {
+      "ritmo": 88,
+      "tiro": 85,
+      "pase": 80,
+      "regate": 87,
+      "defensa": 40,
+      "fisico": 72
+    }
+  },
+  {
+    "id": "j060",
+    "nombre": "Nuno Mendes",
+    "posicion": [
+      "LI"
+    ],
+    "media": 85,
+    "nacionalidad": "Portugal",
+    "club_real": "PSG",
+    "precio": 80000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 65,
+      "pase": 78,
+      "regate": 80,
+      "defensa": 80,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j061",
+    "nombre": "Martin Ødegaard",
+    "posicion": [
+      "MCO",
+      "MC"
+    ],
+    "media": 87,
+    "nacionalidad": "Noruega",
+    "club_real": "Arsenal FC",
+    "precio": 75000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 82,
+      "pase": 90,
+      "regate": 85,
+      "defensa": 58,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j062",
+    "nombre": "Jurrien Timber",
+    "posicion": [
+      "DFC",
+      "LD",
+      "LI"
+    ],
+    "media": 84,
+    "nacionalidad": "Países Bajos",
+    "club_real": "Arsenal FC",
+    "precio": 70000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 50,
+      "pase": 78,
+      "regate": 68,
+      "defensa": 85,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j063",
+    "nombre": "Mohamed Salah",
+    "posicion": [
+      "ED"
+    ],
+    "media": 88,
+    "nacionalidad": "Egipto",
+    "club_real": "Liverpool",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 88,
+      "pase": 80,
+      "regate": 87,
+      "defensa": 42,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j064",
+    "nombre": "Harry Kane",
+    "posicion": [
+      "DC"
+    ],
+    "media": 90,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Bayern München",
+    "precio": 55000000,
+    "stats": {
+      "ritmo": 72,
+      "tiro": 93,
+      "pase": 83,
+      "regate": 75,
+      "defensa": 42,
+      "fisico": 85
+    }
+  },
+  {
+    "id": "j065",
+    "nombre": "Michael Olise",
+    "posicion": [
+      "ED",
+      "MCO"
+    ],
+    "media": 86,
+    "nacionalidad": "Francia",
+    "club_real": "Bayern München",
+    "precio": 65000000,
+    "stats": {
+      "ritmo": 87,
+      "tiro": 83,
+      "pase": 80,
+      "regate": 88,
+      "defensa": 38,
+      "fisico": 70
+    }
+  },
+  {
+    "id": "j066",
+    "nombre": "Gianluigi Donnarumma",
+    "posicion": [
+      "PO"
+    ],
+    "media": 88,
+    "nacionalidad": "Italia",
+    "club_real": "Manchester City",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 52,
+      "tiro": 28,
+      "pase": 70,
+      "regate": 22,
+      "defensa": 90,
+      "fisico": 87
+    }
+  },
+  {
+    "id": "j067",
+    "nombre": "Eberechi Eze",
+    "posicion": [
+      "MCO",
+      "ED"
+    ],
+    "media": 84,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Arsenal FC",
+    "precio": 60000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 82,
+      "pase": 80,
+      "regate": 87,
+      "defensa": 45,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j068",
+    "nombre": "Riccardo Calafiori",
+    "posicion": [
+      "DFC",
+      "LI"
+    ],
+    "media": 83,
+    "nacionalidad": "Italia",
+    "club_real": "Arsenal FC",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 55,
+      "pase": 80,
+      "regate": 62,
+      "defensa": 85,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j069",
+    "nombre": "Kai Havertz",
+    "posicion": [
+      "DC",
+      "MCO"
+    ],
+    "media": 84,
+    "nacionalidad": "Alemania",
+    "club_real": "Arsenal FC",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 78,
+      "tiro": 82,
+      "pase": 78,
+      "regate": 78,
+      "defensa": 52,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j070",
+    "nombre": "Noni Madueke",
+    "posicion": [
+      "ED",
+      "EI"
+    ],
+    "media": 82,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Chelsea",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 78,
+      "pase": 70,
+      "regate": 85,
+      "defensa": 32,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j071",
+    "nombre": "Fabián Ruiz",
+    "posicion": [
+      "MC",
+      "MCO"
+    ],
+    "media": 85,
+    "nacionalidad": "España",
+    "club_real": "PSG",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 80,
+      "pase": 88,
+      "regate": 78,
+      "defensa": 68,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j072",
+    "nombre": "Jules Koundé",
+    "posicion": [
+      "LD",
+      "DFC"
+    ],
+    "media": 86,
+    "nacionalidad": "Francia",
+    "club_real": "Barcelona",
+    "precio": 70000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 58,
+      "pase": 78,
+      "regate": 72,
+      "defensa": 87,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j073",
+    "nombre": "Gabriel Martinelli",
+    "posicion": [
+      "EI",
+      "DC"
+    ],
+    "media": 83,
+    "nacionalidad": "Brasil",
+    "club_real": "Arsenal FC",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 90,
+      "tiro": 80,
+      "pase": 68,
+      "regate": 82,
+      "defensa": 38,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j074",
+    "nombre": "Martín Zubimendi",
+    "posicion": [
+      "MCD"
+    ],
+    "media": 85,
+    "nacionalidad": "España",
+    "club_real": "Arsenal FC",
+    "precio": 80000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 72,
+      "pase": 88,
+      "regate": 75,
+      "defensa": 87,
+      "fisico": 80
+    }
+  },
+  {
+    "id": "j075",
+    "nombre": "Piero Hincapié",
+    "posicion": [
+      "LI",
+      "DFC"
+    ],
+    "media": 82,
+    "nacionalidad": "Ecuador",
+    "club_real": "Arsenal FC",
+    "precio": 50000000,
+    "stats": {
+      "ritmo": 85,
+      "tiro": 48,
+      "pase": 75,
+      "regate": 65,
+      "defensa": 84,
+      "fisico": 83
+    }
+  },
+  {
+    "id": "j076",
+    "nombre": "Myles Lewis-Skelly",
+    "posicion": [
+      "LI",
+      "MCD"
+    ],
+    "media": 78,
+    "nacionalidad": "Inglaterra",
+    "club_real": "Arsenal FC",
+    "precio": 35000000,
+    "stats": {
+      "ritmo": 83,
+      "tiro": 55,
+      "pase": 78,
+      "regate": 72,
+      "defensa": 78,
+      "fisico": 78
+    }
+  },
+  {
+    "id": "j077",
+    "nombre": "Oscar Gloukh",
+    "posicion": [
+      "MCO",
+      "MC"
+    ],
+    "media": 76,
+    "nacionalidad": "Israel",
+    "club_real": "RB Leipzig",
+    "precio": 35000000,
+    "stats": {
+      "ritmo": 75,
+      "tiro": 73,
+      "pase": 82,
+      "regate": 80,
+      "defensa": 50,
+      "fisico": 65
+    }
+  },
+  {
+    "id": "j078",
+    "nombre": "Kenan Yildiz",
+    "posicion": [
+      "EI",
+      "MCO"
+    ],
+    "media": 80,
+    "nacionalidad": "Turquía",
+    "club_real": "Juventus",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 82,
+      "tiro": 78,
+      "pase": 78,
+      "regate": 83,
+      "defensa": 38,
+      "fisico": 68
+    }
+  },
+  {
+    "id": "j079",
+    "nombre": "Evan Ferguson",
+    "posicion": [
+      "DC"
+    ],
+    "media": 77,
+    "nacionalidad": "Irlanda",
+    "club_real": "Brighton",
+    "precio": 45000000,
+    "stats": {
+      "ritmo": 72,
+      "tiro": 80,
+      "pase": 60,
+      "regate": 65,
+      "defensa": 35,
+      "fisico": 82
+    }
+  },
+  {
+    "id": "j080",
+    "nombre": "Mikel Merino",
+    "posicion": [
+      "MC",
+      "MCD"
+    ],
+    "media": 83,
+    "nacionalidad": "España",
+    "club_real": "Arsenal FC",
+    "precio": 30000000,
+    "stats": {
+      "ritmo": 72,
+      "tiro": 75,
+      "pase": 83,
+      "regate": 70,
+      "defensa": 80,
+      "fisico": 85
+    }
+  }
+]

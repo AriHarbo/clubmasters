@@ -1,0 +1,144 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  username  String   @unique
+  password  String
+  club      Club?
+  createdAt DateTime @default(now())
+}
+
+model Liga {
+  id              String   @id @default(uuid())
+  nombre          String
+  codigo          String   @unique
+  frecuenciaDias  Int      @default(3)
+  estado          String   @default("esperando")
+  fechaActual     Int      @default(1)
+  esPublica       Boolean  @default(false)
+  minimoJugadores Int      @default(2)
+  iniciada        Boolean  @default(false)
+  creadorId       String
+  clubes          Club[]
+  partidos        Partido[]
+  solicitudes     SolicitudLiga[]
+  createdAt       DateTime @default(now())
+}
+
+model Club {
+  id          String   @id @default(uuid())
+  nombre      String
+  escudo      Json
+  presupuesto Float    @default(10000000)
+  esAdmin     Boolean  @default(false)
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id])
+  ligaId      String
+  liga        Liga     @relation(fields: [ligaId], references: [id])
+  jugadores   JugadorClub[]
+  sobres      SobreClub[]
+  partidosLocal    Partido[] @relation("Local")
+  partidosVisitante Partido[] @relation("Visitante")
+  createdAt   DateTime @default(now())
+}
+
+model Jugador {
+  id         String   @id @default(uuid())
+  nombre     String
+  posicion   String[]
+  media      Int
+  nacionalidad String
+  club_real  String
+  stats      Json
+  precio     Float
+  estaLibre  Boolean  @default(false)
+  clubes     JugadorClub[]
+  mercados   MercadoJugador[]
+}
+
+model JugadorClub {
+  id               String  @id @default(uuid())
+  jugadorId        String
+  jugador          Jugador @relation(fields: [jugadorId], references: [id])
+  clubId           String
+  club             Club    @relation(fields: [clubId], references: [id])
+  esTitular        Boolean @default(false)
+  posicionFormacion String?
+  nivelEntrenamiento Int   @default(0)
+  createdAt        DateTime @default(now())
+}
+
+model Mercado {
+  id        String   @id @default(uuid())
+  fecha     DateTime @default(now())
+  activo    Boolean  @default(true)
+  jugadores MercadoJugador[]
+}
+
+model MercadoJugador {
+  id        String  @id @default(uuid())
+  mercadoId String
+  mercado   Mercado @relation(fields: [mercadoId], references: [id])
+  jugadorId String
+  jugador   Jugador @relation(fields: [jugadorId], references: [id])
+  precio    Float
+  vendido   Boolean @default(false)
+}
+
+model SobreClub {
+  id      String @id @default(uuid())
+  clubId  String
+  club    Club   @relation(fields: [clubId], references: [id])
+  tipo    String
+  abierto Boolean @default(false)
+  jugadoresObtenidos Json?
+  createdAt DateTime @default(now())
+}
+
+model Partido {
+  id            String   @id @default(uuid())
+  ligaId        String
+  liga          Liga     @relation(fields: [ligaId], references: [id])
+  clubLocalId   String
+  clubLocal     Club     @relation("Local", fields: [clubLocalId], references: [id])
+  clubVisitanteId String
+  clubVisitante Club     @relation("Visitante", fields: [clubVisitanteId], references: [id])
+  golesLocal    Int?
+  golesVisitante Int?
+  fechaLiga     Int
+  log           Json?
+  jugado        Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+model MinijuegoDiario {
+  id              String   @id @default(uuid())
+  pregunta        String
+  opciones        Json
+  respuestaCorrecta Int
+  fecha           DateTime @default(now())
+}
+
+model MinijuegoRespuesta {
+  id        String   @id @default(uuid())
+  userId    String
+  fecha     DateTime @default(now())
+  correcto  Boolean
+}
+
+model SolicitudLiga {
+  id        String   @id @default(uuid())
+  userId    String
+  ligaId    String
+  estado    String   @default("pendiente")
+  liga      Liga     @relation(fields: [ligaId], references: [id])
+  createdAt DateTime @default(now())
+}
