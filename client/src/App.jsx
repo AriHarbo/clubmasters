@@ -6,6 +6,7 @@ import Onboarding from './pages/Onboarding'
 import Esperando from './pages/Esperando'
 import Liga from './pages/Liga'
 import Plantilla from './pages/Plantilla'
+import Sobres from './pages/Sobres'
 
 function PrivateRoute({ children }) {
   const { token } = useAuthStore()
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
         <Route path="/liga" element={<PrivateRoute><Liga /></PrivateRoute>} />
         <Route path="/plantilla" element={<PrivateRoute><Plantilla /></PrivateRoute>} />
+        <Route path="/sobres" element={<PrivateRoute><Sobres /></PrivateRoute>} />
       </Routes>
     </BrowserRouter>
   )

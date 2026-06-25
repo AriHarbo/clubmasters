@@ -119,18 +119,30 @@ export default function Plantilla() {
   }, [])
 
   const cargarPlantilla = async () => {
-    try {
-      const { data } = await api.get('/club/mi-club')
-      const jjs = data.jugadores || []
-      setJugadores(jjs)
+  try {
+    const { data } = await api.get('/club/mi-club')
+    const jjs = data.jugadores || []
+    setJugadores(jjs)
 
-      // Cargar titulares existentes
-      const tits = {}
-      jjs.forEach((jc, i) => {
+    // Cargar formación guardada
+    const formGuardada = data.formacion || '4-3-3'
+    setFormacion(formGuardada)
+
+    // Cargar titulares con la formación guardada
+    const coords = COORDS_FORMACION[formGuardada]
+    const tits = {}
+    const usados = new Set()
+
+    jjs.forEach(jc => {
         if (jc.esTitular && jc.posicionFormacion) {
-          const coords = COORDS_FORMACION[formacion]
-          const slotIdx = coords.findIndex((c, ci) => c.pos === jc.posicionFormacion && !Object.values(tits).includes(jc.id) && !Object.keys(tits).includes(String(ci)))
-          if (slotIdx !== -1) tits[slotIdx] = jc.id
+          const slotIdx = coords.findIndex((c, ci) =>
+            c.pos === jc.posicionFormacion &&
+            !usados.has(ci)
+          )
+          if (slotIdx !== -1) {
+            tits[slotIdx] = jc.id
+            usados.add(slotIdx)
+          }
         }
       })
       setTitulares(tits)
@@ -171,8 +183,8 @@ export default function Plantilla() {
   }
 
   const handleGuardar = async () => {
-    setGuardando(true)
-    try {
+  setGuardando(true)
+  try {
       const coords = COORDS_FORMACION[formacion]
       const payload = jugadores.map(jc => ({
         jugadorClubId: jc.id,
@@ -182,7 +194,7 @@ export default function Plantilla() {
           return slotIdx !== undefined ? coords[slotIdx].pos : null
         })()
       }))
-      await api.put('/club/formacion', { jugadores: payload })
+      await api.put('/club/formacion', { jugadores: payload, formacion }) // ← agregá formacion
       setSuccess('Formación guardada ✓')
       setTimeout(() => setSuccess(''), 3000)
     } catch (err) {

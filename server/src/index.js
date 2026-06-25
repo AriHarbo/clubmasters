@@ -13,6 +13,7 @@ app.use('/api/auth', require('./routes/auth'))
 app.use('/api/liga', require('./routes/liga'))
 app.use('/api/club', require('./routes/club'))
 app.use('/api/solicitud', require('./routes/solicitud'))
+app.use('/api/sobre', require('./routes/sobre'))
 
 app.get('/', (req, res) => {
   res.json({ message: 'Clubmasters API funcionando ✅' })

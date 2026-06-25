@@ -162,18 +162,23 @@ const obtenerClub = async (req, res) => {
 }
 
 const actualizarFormacion = async (req, res) => {
-  const { jugadores } = req.body
-  // jugadores: [{ jugadorClubId, esTitular, posicionFormacion }]
+  const { jugadores, formacion } = req.body
 
   try {
     const club = await prisma.club.findUnique({ where: { userId: req.userId } })
     if (!club) return res.status(404).json({ error: 'No tenés un club' })
 
-    // Verificar que no haya más de 11 titulares
     const titulares = jugadores.filter(j => j.esTitular)
     if (titulares.length > 11) return res.status(400).json({ error: 'No podés tener más de 11 titulares' })
 
-    // Actualizar cada jugador
+    // Guardar formación
+    if (formacion) {
+      await prisma.club.update({
+        where: { userId: req.userId },
+        data: { formacion }
+      })
+    }
+
     for (const j of jugadores) {
       await prisma.jugadorClub.update({
         where: { id: j.jugadorClubId },

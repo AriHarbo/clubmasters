@@ -48,6 +48,8 @@ model Club {
   partidosLocal    Partido[] @relation("Local")
   partidosVisitante Partido[] @relation("Visitante")
   createdAt   DateTime @default(now())
+  formacion   String   @default("4-3-3")
+  sobreInicialAbierto Boolean @default(false)
 }
 
 model Jugador {
